@@ -1,4 +1,4 @@
-import { FaBehance, FaLinkedin, FaNodeJs } from "react-icons/fa";
+import { FaBehance, FaDocker, FaLinkedin, FaNodeJs } from "react-icons/fa";
 import { SiExpress, SiFfmpeg, SiLinktree, SiVite } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass } from "react-icons/fa";
@@ -41,5 +41,6 @@ export const skillSets = [
   { icon: SiNextdotjs, color: "#FFFFFF", name: "Next.js" },
   {icon: FaNodeJs, color: "#6d9c5a", name: "Node.js"},
   {icon: SiExpress, color: "#ffffff", name: "Express.js"},
-  {icon: GrMysql, color: "#054781", name: "MySQL"}
+  {icon: GrMysql, color: "#3178C6", name: "MySQL"},
+  {icon: FaDocker, color: "#1D63ED", name: "Docker"}
 ];
