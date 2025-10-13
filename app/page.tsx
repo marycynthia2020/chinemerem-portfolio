@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Hero
-        headline="solving problems through "
+        headline="solving problems throughg "
         highlightedText="design and logic"
         subText="I turn ideas into products people would love to use with  focus on performance and usability."
         showCTA = {false}

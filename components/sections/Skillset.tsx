@@ -7,14 +7,14 @@ const Skillset = () => {
         <h2 className="text-3xl md:text-[3.375rem] font-semibold mb-4 capitalize text-[#FEB273]">
           Things I know
         </h2>
-        <ul className="flex w-full md:w-auto items-center justify-center flex-wrap gap-4 md:justify-center">
+        <ul className="flex w-full md:w-auto items-center justify-center flex-wrap gap-4">
            {skillSets.map((skill, index) => (
         <li
           key={index}
           className="flex items-center gap-2 px-3 py-1 border border-slate-400 rounded-full text-sm font-medium
-                     transition-all duration-200 ease-out hover:shadow-md hover:-translate-y-1 hover:border-brand-secondary"
+                     transition-all duration-200 ease-out hover:shadow-md hover:-translate-y-1 hover:border-[#FEB273]"
         >
-          <skill.icon  className={`text-${skill.color}`}/>
+          <skill.icon color={skill.color} />
           <p>{skill.name}</p>
         </li>
       ))}
