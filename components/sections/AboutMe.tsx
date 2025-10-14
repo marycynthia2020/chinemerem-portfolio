@@ -3,7 +3,7 @@ import TouchBtn from "../TouchBtn";
 
 function AboutMe() {
   return (
-    <section id="about-me" className="w-full mt-20 ">
+    <section id="about-me" className="w-full mt-20 md:mt-30 ">
       <div className="w-full max-w-[1440px] mx-auto col-span-12 grid grid-cols-2 gap-y-12 px-5">
         <div className="col-span-2 md:col-start-1 md:col-end-2 grid place-content-center">
           <img src="star.svg" alt="" />
@@ -45,7 +45,7 @@ function AboutMe() {
         </div>
       </div>
       <div className="mt-14 place-self-center">
-        <TouchBtn className="w-full px-20" />
+        <TouchBtn children="get in touch<" className="w-full px-20"  href="/contact"/>
       </div>
     </section>
   );

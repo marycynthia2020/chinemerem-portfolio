@@ -6,5 +6,7 @@ interface HeroProps  {
 };
 
 interface BtnProps {
-  className?: string
+  children:string,
+  className?: string,
+  href: string
 }
