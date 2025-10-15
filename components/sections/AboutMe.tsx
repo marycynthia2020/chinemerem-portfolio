@@ -45,7 +45,7 @@ function AboutMe() {
         </div>
       </div>
       <div className="mt-14 place-self-center">
-        <TouchBtn children="get in touch<" className="w-full px-20"  href="/contact"/>
+        <TouchBtn children="get in touch" className="w-full px-20"  href="/contact"/>
       </div>
     </section>
   );

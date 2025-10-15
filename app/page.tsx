@@ -9,11 +9,11 @@ export default function Home() {
       <Hero
         headline="solving problems through"
         highlightedText="design and logic"
-        subText="I turn ideas into products people would love to use with  focus on performance and usability."
+        subText="I turn ideas into products people would love to use with  focus on performance and usability. I balance creativity with structure."
         showCTA = {false}
       />
       <AboutMe />
-      <Skillset />
+      <Skillset title = "things I know" />
       <Projects />
     </div>
   );

@@ -16,7 +16,7 @@ const Hero = ({headline, highlightedText, subText, showCTA}:HeroProps) => {
           </h4>
         )}
         <div className='mt-14 place-self-center'>
-          {showCTA && <TouchBtn  className=" px-10 sm:px-16 md:px-25" href='/contact' children='get in touch<' /> }
+          {showCTA && <TouchBtn  className=" px-10 sm:px-16 md:px-25" href='/contact' children='get in touch' /> }
         </div>
        </div>
     </section>

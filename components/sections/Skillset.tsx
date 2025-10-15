@@ -1,11 +1,15 @@
 import { skillSets } from "../data";
 
-const Skillset = () => {
+type titleProps = {
+  title: string
+}
+
+const Skillset = ({title}: titleProps) => {
   return (
     <section className=" mt-20 md:mt-30 w-full">
       <div className="w-full max-w-[1000px] mx-auto flex flex-col gap-10 items-center justify-center px-5">
         <h2 className="text-3xl md:text-[3.375rem] font-semibold mb-4 capitalize text-[#FEB273]">
-          Things I know
+         {title}
         </h2>
         <ul className="flex w-full md:w-auto items-center justify-center flex-wrap gap-4">
            {skillSets.map((skill, index) => (
