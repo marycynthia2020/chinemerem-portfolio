@@ -11,7 +11,7 @@ const NavBar = () => {
   const pathname = usePathname()
   
   return (
-    <nav className="w-full fixed md:top-2 z-10 ">
+    <nav className="w-full fixed md:top-2 z-10">
       <div className={`w-full max-w-[1440px] mx-auto md:rounded-[150px] md:border border-[#566265]  px-5 py-6  flex md:h-auto flex-col gap-y-14 md:flex-row items-center md:justify-between md:bg-transparent md:backdrop-blur-md ${isOpen? "bg-[#0C0E0E] h-screen": ""} `}>
         <div className={`w-full flex items-center justify-between py-4 md:hidden bg-transparent backdrop-blur-sm rounded-[150px] ${isOpen? "px-0": "px-5"}`}>
           <Link href ="/" className= "text-3xl md:text-2xl">

@@ -1,4 +1,4 @@
-import { FaBehance } from "react-icons/fa";
+import Designer from "../Designer";
 import TouchBtn from "../TouchBtn";
 
 function Footer() {
@@ -10,25 +10,7 @@ function Footer() {
         </h3>
         <TouchBtn children="get in touch" className="px-16 md:px-10" href="/contact"/>
       </section>
-      <section className="max-sm:px-5 mt-20 flex flex-col max-sm:gap-4 items-center md:gap-1">
-        <p>
-          Designed by{" "}
-          <a
-            href="https://www.behance.net/arif07"
-            target="_blank"
-            className="text-[#FEB273]"
-          >
-            Khandaker Ariful Haque
-          </a>
-        </p>
-        <a
-          href="https://www.behance.net/arif07"
-          target="_blank"
-          className="text-white text-xl"
-        >
-          <FaBehance />
-        </a>
-      </section>
+      <Designer />
     </footer>
   );
 }
