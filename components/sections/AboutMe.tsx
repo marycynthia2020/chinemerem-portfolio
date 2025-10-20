@@ -9,11 +9,11 @@ function AboutMe() {
           <img src="star.svg" alt="" />
           <div className="-mt-20">
             <img
-              // src="/my-pix.jpeg"
+              src="https://res.cloudinary.com/djnwsinit/image/upload/v1760962177/chinemerem_djvrip.jpg"
               alt="Portrait of Chinemerem Ugbaja"
               className="max-w-[280px] md:max-w-[400px] rounded-xl shadow-lg transition-transform duration-500 ease-out hover:scale-105 hover:rotate-1 hover:shadow-[0_12px_40px_rgba(254,178,115,0.4)]"
               loading="eager"
-            />n
+            />
           </div>
         </div>
         <div className="col-span-2 md:col-start-2 md:-col-end-1 text-left flex flex-col gap-5 justify-between">
@@ -45,7 +45,7 @@ function AboutMe() {
         </div>
       </div>
       <div className="mt-14 place-self-center">
-        <TouchBtn children="get in touch" className="w-full px-20"  href="/contact"/>
+        <TouchBtn children="get in touch" className="w-full px-20 md:px-12"  href="/contact"/>
       </div>
     </section>
   );

@@ -1,19 +1,15 @@
-import {FaDocker, FaLinkedin, FaNodeJs } from "react-icons/fa";
+import { FaDocker, FaLinkedin, FaNodeJs } from "react-icons/fa";
 import { SiExpress, SiLinktree } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact} from "react-icons/fa";
-import {
-  SiTypescript,
-  SiNextdotjs,
-  SiTailwindcss,
-} from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
+import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 
 export const navLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
-  // { name: "Projects", path: "/projects" },
+  { name: "Projects", path: "/projects" },
 ];
 
 export const socialLinks = [
@@ -41,9 +37,35 @@ export const skillSets = [
 ];
 
 export const projects = [
-  { name: "blog", thumbnail: "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/blog_kf0io6.jpg", href: "https://omnipress-zeta.vercel.app/"},
-  {name: "movie app", thumbnail: "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/movieapp_rw54tf.jpg ", href:  "https://multiplex-dun.vercel.app/"},
-  {name: "space travel", thumbnail: "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/space-travel_qimwpa.jpg", href: "https://space-travel-webste.netlify.app/"},
-  {name: "product page", thumbnail: "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/product-card_iv576g.jpg", href: "https://productpage101.netlify.app/"},
-  {name: "task app", thumbnail: "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/todo_fopqqq.jpg", href: "https://todoapp202.netlify.app/"}
+  {
+    name: "blog",
+    thumbnail:
+      "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/blog_kf0io6.jpg",
+    href: "https://omnipress-zeta.vercel.app/",
+    desc: "A dynamic blog website designed to be your go-to source for news across diverse categories, from technology to sports and everything in between. The application leverages a robust API for its backend, ensuring efficient data management and a seamless user experience.",
+  },
+  {
+    name: "movie app",
+    thumbnail:
+      "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/movieapp_rw54tf.jpg ",
+    href: "https://multiplex-dun.vercel.app/",
+  },
+  {
+    name: "space travel",
+    thumbnail:
+      "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/space-travel_qimwpa.jpg",
+    href: "https://space-travel-webste.netlify.app/",
+  },
+  {
+    name: "product page",
+    thumbnail:
+      "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/product-card_iv576g.jpg",
+    href: "https://productpage101.netlify.app/",
+  },
+  {
+    name: "task app",
+    thumbnail:
+      "https://res.cloudinary.com/djnwsinit/image/upload/v1760386910/todo_fopqqq.jpg",
+    href: "https://todoapp202.netlify.app/",
+  },
 ];
