@@ -2,6 +2,7 @@ import AboutMe from "@/components/sections/AboutMe";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Skillset from "@/components/sections/Skillset";
+import SkillTicker from "@/components/sections/SkillTicker";
 import TouchBtn from "@/components/TouchBtn";
 
 export default function Home() {
@@ -13,9 +14,12 @@ export default function Home() {
         subText="I turn ideas into products people would love to use with  focus on performance and usability. I balance creativity with structure."
         showCTA={false}
       />
+      <div className="">
+        <SkillTicker />
+      </div>
       <AboutMe />
       <Skillset title="things I know" />
-      <Projects startingIndex={0} endingIndex={4} />
+      <Projects startingIndex={0} endingIndex={3} />
       <div className="mt-14 place-self-center">
         <TouchBtn
           children="See more"

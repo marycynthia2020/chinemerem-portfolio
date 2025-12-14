@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { navLinks, socialLinks } from "../data";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const pathname = usePathname()
   
   return (

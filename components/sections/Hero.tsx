@@ -5,7 +5,7 @@ import TouchBtn from '../TouchBtn'
 
 const Hero = ({headline, highlightedText, subText, showCTA}:HeroProps) => {
   return (
-    <section className=" w-full bg-[url('/bg.png')] h-screen bg-no-repeat bg-cover">
+    <section className=" w-full bg-[url('https://res.cloudinary.com/djnwsinit/image/upload/v1765736126/bg_gzugfv.png')] h-screen bg-no-repeat bg-cover">
        <div className=' h-screen mx-auto  max-w-[1440px] grid gap-6 place-content-center' >
             <h1 className="text-5xl text-center text-balance md:text-7xl font-bold capitalize ">{headline} {highlightedText && (
             <span className="text-[#FEB273]">{highlightedText}</span>
