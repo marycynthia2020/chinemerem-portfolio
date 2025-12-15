@@ -64,7 +64,7 @@ export const projects = [
       "A movie application that allows users to browse, search, and view details about movies. It features a clean interface, responsive design, light and dark theme support, and real-time data fetched from an external movie API.",
   },
   {
-    name: "skillConnet (In progress)",
+    name: "skillConnet (dev)",
     tech: [
       "React.js",
       "Next.js",
