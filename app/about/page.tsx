@@ -32,7 +32,7 @@ function AboutSection() {
         </div>
         <div className="grid place-content-center">
           <img
-            src="https://res.cloudinary.com/djnwsinit/image/upload/v1760962177/chinemerem_djvrip.jpg"
+            src="https://res.cloudinary.com/djnwsinit/image/upload/v1767096599/ppf_kw2xu7.jpg"
             alt="Portrait of Chinemerem Ugbaja"
             className="max-w-[280px] md:max-w-[360px] rounded-xl shadow-lg transition-transform duration-500 ease-out hover:scale-105 hover:rotate-1 hover:shadow-[0_12px_40px_rgba(254,178,115,0.4)]"
             loading="eager"
