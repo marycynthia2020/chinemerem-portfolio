@@ -6,7 +6,7 @@ function AboutMe() {
     <section id="about-me" className="w-full mt-20 md:mt-30 ">
       <div className="w-full max-w-[1440px] mx-auto col-span-12 grid grid-cols-2 gap-y-12 px-5">
         <div className="col-span-2 md:col-start-1 md:col-end-2 grid place-content-center">
-          <img src="star.svg" alt="" />
+          <img src="star.svg" alt="star" />
           <div className="-mt-20">
             <img
               src="https://res.cloudinary.com/djnwsinit/image/upload/v1767096599/ppf_kw2xu7.jpg"
